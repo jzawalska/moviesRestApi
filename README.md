@@ -11,7 +11,7 @@ Users are enabled to create a database of movies.
 - getting a list of all movies
 - adding a movie
 - adding details to existing movie
-- getting details of selected movie
+- getting details of the selected movie
 
 ```URL:``` http://localhost:8080/movies
 
@@ -22,4 +22,3 @@ Users are enabled to create a database of movies.
 | GET    | /movies/{movieId}  | get selected movie |
 | POST | /movies/{movieId}/details | add movie getails | {<br />"genre": "FANTASY",<br />"description": "Pan Twardowsky, siedzi sam jak palec w stacji kosmicznej na Księżycu. Czeka, aż po jego duszę przybędzie piekielna egzekutorka cyrografów. Ale od czego polski spryt, woda święcona i dwie tony ładunków wybuchowych?"<br />}
 |GET | /movies/{movieId}/details | get details of selected movie| 
-
