@@ -6,6 +6,13 @@ A simple Java 8 / Spring Boot (version 2.0.1) / Maven application.
 - Default host port: 8080
 
 ### Sample usage
+Users are enabled to create a database of movies.
+<br /> Supported operations:
+- getting a list of all movies
+- adding a movie
+- adding details to existing movie
+- getting details of selected movie
+
 ```URL:``` http://localhost:8080/movies
 
 | Method | Path | Decription | Example |
